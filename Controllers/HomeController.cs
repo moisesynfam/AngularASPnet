@@ -10,7 +10,6 @@ namespace WebApplicationBasic.Controllers
     {
         public IActionResult Index()
         {
-            chane;
             return View();
         }
 
