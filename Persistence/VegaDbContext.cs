@@ -13,5 +13,6 @@ namespace Angular_2___Asp_Net.Persistence
         }
 
         public DbSet<Make> Makes{ get; set; }
+        public DbSet<Feature> Features { get; set; }
     }
 }

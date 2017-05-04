@@ -8,9 +8,10 @@ using Angular_2___Asp_Net.Persistence;
 namespace Angular2AspNet.Migrations
 {
     [DbContext(typeof(VegaDbContext))]
-    partial class VegaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170504174232_AddFeaturesTable")]
+    partial class AddFeaturesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1")

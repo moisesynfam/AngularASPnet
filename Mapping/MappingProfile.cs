@@ -10,6 +10,8 @@ namespace Angular_2___Asp_Net.Mapping
         {
             CreateMap<Make,MakeResource>();
             CreateMap<Model,ModelResource>();
+            CreateMap<Feature,FeatureResource>();
+
             
         }
     }
